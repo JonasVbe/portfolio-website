@@ -1,0 +1,13 @@
+{
+  "email": "johndoe@example.com",
+  "socialLinks": [
+    {
+      "platform": "LinkedIn",
+      "url": "https://linkedin.com/in/johndoe"
+    },
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/johndoe"
+    }
+  ]
+}

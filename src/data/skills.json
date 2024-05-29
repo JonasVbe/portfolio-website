@@ -1,0 +1,32 @@
+[
+  {
+    "name": "C#",
+    "level": 90,
+    "logo":"../assets/logos/csharplogo.png"
+  },
+  {
+    "name": "SQL & Databases",
+    "level": 80,
+    "logo":"../assets/logos/csharplogo.png"
+  },
+  {
+    "name": "Eisenanalyse en UML",
+    "level": 75,
+    "logo":"../assets/logos/csharplogo.png"
+  },
+  {
+    "name": "JavaScript & Interactieve Websites",
+    "level": 70,
+    "logo":"../assets/logos/csharplogo.png"
+  },
+  {
+    "name": "Angular & Ionic",
+    "level": 70,
+    "logo":"../assets/logos/csharplogo.png"
+  },
+  {
+    "name": "Backend Development (Node.js)",
+    "level": "75",
+    "logo":"../assets/logos/csharplogo.png"
+  }
+]
