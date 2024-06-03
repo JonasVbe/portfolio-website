@@ -1,7 +1,7 @@
 {
   "projects": [
     {
-      "title": "Project One",
+      "title": "myHr-app redesign proof of concept",
       "thumbnail": "path/to/thumbnail1.jpg",
       "images": ["path/to/image1.jpg", "path/to/image2.jpg"],
       "subtitles": ["Subtitle for image 1", "Subtitle for image 2"],
