@@ -1,33 +1,32 @@
-import { FunctionComponent } from 'react'
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import About from './components/About'
-import Skills from './components/Skills.tsx'
-import Projects from './components/Projects.tsx'
-import Education from './components/Education'
-import WorkExperience from './components/WorkExperience'
-import Hobbies from './components/Hobbies'
-import Contact from './components/Contact.tsx'
-import bioData from './data/bio.json'
-import contactData from './data/contact.json'
-
-import projectsData from './data/projects.json'
-import workExperienceData from './data/WorkExperience.json'
+import { FunctionComponent } from 'react';
+import Sidebar from './components/Sidebar';
+import Topbar from './components/Topbar';
+import Home from './components/Home';
+import About from './components/About';
+import Skills from './components/Skills';
+import WorkExperience from './components/WorkExperience';
+import Education from './components/Education';
+import Portfolio from './components/Portfolio.tsx';
+import Contact from './components/Contact';
 
 const App: FunctionComponent = () => {
     return (
-        <div className="font-sans bg-gray-900 text-white">
-            <Navbar />
-            <Hero name={bioData.name} title={bioData.title} bio={bioData.bioText} image={bioData.profileImage} />
-            <About bio={bioData.bioText} contactDetails={{ email: bioData.email, linkedin: bioData.linkedin, twitter: bioData.twitter }} />
-            <Skills />
-            <Projects projects={projectsData} />
-            <Education />
-            <WorkExperience experiences={workExperienceData} />
-            <Hobbies hobbies={bioData.hobbies} interests={bioData.interests} />
-            <Contact email={contactData.email} socialLinks={contactData.socialLinks} />
+        <div className="flex">
+            <Sidebar />
+            <div className="flex-1 ml-0 md:ml-60">
+                <Topbar />
+                <div className="pt-14 md:pt-0">
+                    <section id="home"><Home /></section>
+                    <section id="about"><About /></section>
+                    <section id="skills"><Skills /></section>
+                    <section id="work-experience"><WorkExperience /></section>
+                    <section id="education"><Education /></section>
+                    <section id="hobbies"><Portfolio /></section>
+                    <section id="contact"><Contact /></section>
+                </div>
+            </div>
         </div>
-    )
-}
+    );
+};
 
-export default App
+export default App;
