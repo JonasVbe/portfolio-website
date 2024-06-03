@@ -7,9 +7,10 @@ export default {
     theme: {
         extend: {
             colors: {
-                navBg: '#7db9cc', // Voor top en sidebar
+                navBg: '#7db9cc', // Voor top en sidebar 7db9cc
                 primaryBg: '#F3F4F6', // Primaire achtergrond
                 secondaryBg: '#c95e16', // Secundaire achtergrond
+                tertiaryBg: '#ffffff',
 
                 primary: '#1E3A8A', // Blauw
                 secondary: '#F59E0B', // Oranje

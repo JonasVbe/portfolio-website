@@ -1,39 +1,47 @@
 import { FunctionComponent } from 'react';
+import workExperience from '../data/workExperience.json';
+
+interface Job {
+    position: string;
+    company: string;
+    location: string;
+    startDate: string;
+    endDate: string;
+    description: string[];
+}
 
 const WorkExperience: FunctionComponent = () => {
     return (
-        <div className="p-8 bg-gray-100">
-            <h1 className="text-3xl font-bold mb-4">Werkervaring</h1>
-            <div className="mb-4">
-                <h2 className="text-xl font-semibold">Systeembeheerder ISO bij Euro Surplus (05-2017 tot 02-2022)</h2>
-                <ul className="list-disc list-inside">
-                    <li>Documentatie maken en beheren voor kwaliteit en milieu standaarden.</li>
-                    <li>Proactief werken aan continue verbetering.</li>
-                    <li>Verzamelen en verdelen van bedrijfskennis.</li>
-                    <li>Procedures opstellen, ontwikkelen, opvolgen en bijwerken.</li>
-                </ul>
-            </div>
-            <div className="mb-4">
-                <h2 className="text-xl font-semibold">Support Services Manager bij Euro Surplus (01-2016 tot 02-2022)</h2>
-                <ul className="list-disc list-inside">
-                    <li>Ondersteunen en coachen van werknemers en klanten.</li>
-                </ul>
-            </div>
-            <div className="mb-4">
-                <h2 className="text-xl font-semibold">Interne Auditor bij Euro Surplus (07-2015 tot 02-2022)</h2>
-                <ul className="list-disc list-inside">
-                    <li>Kwaliteitsbewaking door middel van audits.</li>
-                    <li>Identificeren en opvolgen van non-conformiteiten en corrigerende maatregelen opstellen.</li>
-                </ul>
-            </div>
-            <div className="mb-4">
-                <h2 className="text-xl font-semibold">Warehouse Manager bij Euro Surplus (04-2009 tot 01-2016)</h2>
-                <ul className="list-disc list-inside">
-                    <li>Leidinggeven.</li>
-                    <li>Evalueren en motiveren van medewerkers.</li>
-                    <li>Plannen en verdelen van dagtaken.</li>
-                    <li>Organiseren magazijn.</li>
-                </ul>
+        <div className="min-h-screen bg-primaryBg p-8">
+            <h1 className="text-4xl font-bold mb-4 text-left">WERKERVARING</h1>
+            <div className="border-b-4 border-secondary w-1/4 mb-8"></div>
+            <div className="relative">
+                <div className="hidden lg:block absolute left-1/2 h-full border-l-4 border-secondary"></div>
+                <div className="space-y-8 lg:space-y-4">
+                    {workExperience.map((job: Job, index: number) => (
+                        <div
+                            key={index}
+                            className={`relative lg:w-1/2 lg:mb-8 lg:p-4 ${
+                                index % 2 === 0 ? 'lg:ml-auto lg:pl-10' : 'lg:mr-auto lg:pr-10'
+                            }`}
+                        >
+                            <div className="bg-white p-6 rounded-lg shadow-lg">
+                                <h2 className="text-2xl font-bold mb-2">{job.position}</h2>
+                                <h3 className="text-lg font-semibold text-gray-700 mb-2">
+                                    {job.company} - {job.location}
+                                </h3>
+                                <p className="text-sm text-gray-600 mb-4">
+                                    {job.startDate} - {job.endDate}
+                                </p>
+                                <ul className="list-disc list-inside">
+                                    {job.description.map((desc, i) => (
+                                        <li key={i} className="text-gray-800">{desc}</li>
+                                    ))}
+                                </ul>
+                            </div>
+                        </div>
+                    ))}
+                </div>
             </div>
         </div>
     );

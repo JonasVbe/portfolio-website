@@ -1,0 +1,31 @@
+{
+  "projects": [
+    {
+      "title": "Project One",
+      "thumbnail": "path/to/thumbnail1.jpg",
+      "images": ["path/to/image1.jpg", "path/to/image2.jpg"],
+      "subtitles": ["Subtitle for image 1", "Subtitle for image 2"],
+      "description": "Detailed description of Project One.",
+      "technologies": ["React", "Tailwind CSS", "TypeScript"],
+      "link": "https://github.com/yourusername/projectone"
+    },
+    {
+      "title": "Project Two",
+      "thumbnail": "path/to/thumbnail2.jpg",
+      "images": ["path/to/image3.jpg", "path/to/image4.jpg"],
+      "subtitles": ["Subtitle for image 3", "Subtitle for image 4"],
+      "description": "Detailed description of Project Two.",
+      "technologies": ["Angular", "Node.js", "Express"],
+      "link": "https://github.com/yourusername/projecttwo"
+    },
+    {
+      "title": "Project Three",
+      "thumbnail": "path/to/thumbnail3.jpg",
+      "images": ["path/to/image5.jpg", "path/to/image6.jpg"],
+      "subtitles": ["Subtitle for image 5", "Subtitle for image 6"],
+      "description": "Detailed description of Project Three.",
+      "technologies": ["Vue.js", "Firebase"],
+      "link": null
+    }
+  ]
+}

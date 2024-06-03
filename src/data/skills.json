@@ -1,0 +1,35 @@
+{
+  "skills": [
+    { "name": "C#", "percentage": 80, "years": 3 },
+    { "name": "SQL", "percentage": 70, "years": 2 },
+    { "name": "JavaScript/TypeScript", "percentage": 75, "years": 2 },
+    { "name": "Angular", "percentage": 65, "years": 1 },
+    { "name": "React", "percentage": 60, "years": 1 },
+    { "name": "Java", "percentage": 50, "years": 1 }
+  ],
+  "aboutText": "Ik ben ervaren in een breed scala aan technische vaardigheden en technologieën die essentieel zijn voor moderne softwareontwikkeling. Hieronder volgt een lijst met mijn diepgaande kennis en ervaring.",
+  "detailedKnowledge": [
+    "Objectgeoriënteerd programmeren",
+    "RESTful API-ontwikkeling",
+    "Agile methodologieën",
+    "Versiebeheer (Git)",
+    "Continuous Integration/Continuous Deployment (CI/CD)"
+  ],
+  "languageSkills": [
+    {
+      "language": "Nederlands",
+      "percentage": 100,
+      "proficiency": "Moedertaal"
+    },
+    {
+      "language": "Engels",
+      "percentage": 90,
+      "proficiency": "Vloeiend"
+    },
+    {
+      "language": "Frans",
+      "percentage": 30,
+      "proficiency": "Basis"
+    }
+  ]
+}

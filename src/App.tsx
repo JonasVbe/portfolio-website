@@ -1,9 +1,10 @@
 import { FunctionComponent } from 'react';
+import './App.css'
 import Sidebar from './components/Sidebar';
 import Topbar from './components/Topbar';
 import Home from './components/Home';
 import About from './components/About';
-import Skills from './components/Skills';
+import Skills from './components/skills components/Skills.tsx';
 import WorkExperience from './components/WorkExperience';
 import Education from './components/Education';
 import Portfolio from './components/Portfolio.tsx';

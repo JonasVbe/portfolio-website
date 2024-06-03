@@ -1,0 +1,31 @@
+{
+  "education": {
+    "formal": [
+      {
+        "degree": "Graduaat Toegepaste Informatica: Programmeren",
+        "institution": "Thomas More, Turnhout",
+        "year": 2024
+      }
+    ],
+    "courses": [
+      {
+        "course": "Management Systeem training",
+        "institution": "Argos-zigomar",
+        "year": 2015,
+        "description": "Training voor het managen en intern auditen van ISO-9001 en ISO-14001 managementsystemen."
+      },
+      {
+        "course": "Basiskennis bedrijfsbeheer",
+        "institution": "Syntra",
+        "year": 2013,
+        "description": ""
+      },
+      {
+        "course": "Leidinggeven Voor beginners",
+        "institution": "Syntra",
+        "year": 2012,
+        "description": ""
+      }
+    ]
+  }
+}

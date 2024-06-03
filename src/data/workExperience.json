@@ -1,0 +1,57 @@
+[
+  {
+    "position": "Systeembeheerder ISO",
+    "company": "Euro Surplus",
+    "location": "Turnhout, België",
+    "startDate": "Mei 2017",
+    "endDate": "Februari 2022",
+    "description": [
+      "Documentatie maken en beheren voor kwaliteit en milieu standaarden.",
+      "Proactief werken aan continue verbetering!",
+      "Verzamelen en verdelen van bedrijfskennis.",
+      "Procedures opstellen, ontwikkelen, opvolgen en bijwerken."
+    ]
+  },
+  {
+    "position": "Support Services Manager",
+    "company": "Euro Surplus",
+    "location": "Turnhout, België",
+    "startDate": "Januari 2016",
+    "endDate": "Februari 2022",
+    "description": [
+      "Ondersteunen en coachen van werknemers en klanten."
+    ]
+  },
+  {
+    "position": "Interne Auditor",
+    "company": "Euro Surplus",
+    "location": "Turnhout, België",
+    "startDate": "Juli 2015",
+    "endDate": "Februari 2022",
+    "description": [
+      "Kwaliteitsbewaking doormiddel van audits.",
+      "Identificeren en opvolgen van non-conformiteiten en corrigerende maatregelen opstellen."
+    ]
+  },
+  {
+    "position": "Warehouse Manager",
+    "company": "Euro Surplus",
+    "location": "Turnhout, België",
+    "startDate": "April 2009",
+    "endDate": "Januari 2016",
+    "description": [
+      "Leidinggeven.",
+      "Evalueren en motiveren medewerkers.",
+      "Plannen en verdelen van dagtaken.",
+      "Organiseren magazijn."
+    ]
+  },
+  {
+    "position": "Magazijnier",
+    "company": "Euro Surplus",
+    "location": "Turnhout, België",
+    "startDate": "November 2004",
+    "endDate": "April 2009",
+    "description": []
+  }
+]
